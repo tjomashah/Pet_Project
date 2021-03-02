@@ -1,0 +1,22 @@
+.container__footer {
+  background-color: #1C1C1C;
+  padding: 2.222vw 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__content {
+  color: #595959;
+  font-size: 1.189vw;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 815px) {
+  .container__footer {
+    padding: 20px 0;
+  }
+
+  .footer__content {
+    font-size: 15px;
+  }
+}

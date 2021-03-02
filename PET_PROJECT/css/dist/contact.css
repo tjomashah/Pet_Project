@@ -1,0 +1,142 @@
+.container__contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container__contact .contact__content {
+  width: 42.778vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__header {
+  padding: 4.722vw 0;
+  text-transform: uppercase;
+  font-size: 2.083vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #7b6c63;
+  letter-spacing: 0.167vw;
+}
+
+.contact__content__form {
+  display: flex;
+}
+.contact__content__form .form__input:first-child {
+  margin-right: 0.833vw;
+}
+.contact__content__form .form__input .form__input-input {
+  width: 20.556vw;
+  border: none;
+  border-bottom: 0.167vw solid black;
+  padding: 0 0 0.278vw 0.556vw;
+}
+.contact__content__form .form__input .form__input-input:focus {
+  outline: none;
+}
+
+.form__error {
+  font-size: 0.833vw;
+  color: red;
+  margin-left: 0.521vw;
+}
+
+.form__input__descr {
+  display: block;
+  padding: 0.278vw 0 0 0.556vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.889vw;
+  color: #7D7D7D;
+  letter-spacing: 0.111vw;
+}
+
+.form__textarea {
+  width: 42.578vw;
+  height: 8.333vw;
+  border: none;
+  border-top: 0.167vw solid black;
+  border-bottom: 0.096vw solid #7D7D7D;
+  margin-top: 2.5vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.889vw;
+  padding: 0.278vw 0 0 0.556vw;
+}
+.form__textarea:focus {
+  outline: none;
+}
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  margin: 1.667vw 0 3vw;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.604vw;
+  width: 8.333vw;
+  font-size: 0.938vw;
+  font-weight: 600;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  border: 0.154vw solid black;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 815px) {
+  .container__contact .contact__content {
+    width: 100%;
+  }
+
+  .contact__header {
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .contact__content__form .form__input:first-child {
+    margin-right: 5px;
+  }
+  .contact__content__form .form__input .form__input-input {
+    width: 100px;
+    border-bottom: 0.167vw solid black;
+    padding: 0 0 0.278vw 0.556vw;
+  }
+
+  .form__error {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  .form__input__descr {
+    padding: 5px 0 0 5px;
+    font-size: 10px;
+  }
+
+  .form__textarea {
+    width: 205px;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid #7D7D7D;
+    margin-top: 15px;
+    font-size: 10px;
+    padding: 5px 0 0 5px;
+  }
+
+  .form__button {
+    margin: 10px 0 15px;
+  }
+
+  .btn {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,156 @@
+.container__about {
+  width: 100%;
+  height: 100%;
+}
+.container__about .about__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__about .about__content .about__headling {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.061vw 0;
+}
+.container__about .about__headling__header {
+  text-transform: uppercase;
+  font-size: 2.083vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #7b6c63;
+  letter-spacing: 0.167vw;
+}
+.container__about .about__headling__arrow {
+  width: 5.5vw;
+  height: 0.389vw;
+  margin: 0.833vw 0;
+}
+.container__about .about__headling__info {
+  font-size: 1.042vw;
+  font-family: "Raleway", sans-serif;
+  margin: 0 35.646vw;
+  text-align: center;
+}
+
+.about__content__who-we-are {
+  width: 100%;
+  display: flex;
+  background-color: #F5F5F5;
+}
+
+.about__content__who-we-are__descr {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 4.427vw 0 4.427vw 16.667vw;
+}
+.about__content__who-we-are__descr .info__header {
+  font-size: 1.354vw;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #7b6c63;
+}
+.about__content__who-we-are__descr .info__text {
+  font-size: 0.738vw;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.072vw;
+  line-height: 1.5vw;
+}
+.about__content__who-we-are__descr .info__text:nth-child(2) {
+  margin: 1.823vw 0 2.344vw;
+}
+.about__content__who-we-are__descr .info__text:nth-child(3) {
+  margin: 0 0 1.823vw;
+}
+
+.about__content__who-we-are__img {
+  width: 50%;
+}
+
+.img__about {
+  width: 100%;
+}
+
+.about__content__button a {
+  text-decoration: none;
+}
+
+#about_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.604vw;
+  width: 8.333vw;
+  font-size: 0.938vw;
+  font-weight: 600;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  border: 0.154vw solid black;
+  cursor: pointer;
+}
+#about_btn:focus {
+  outline: none;
+}
+#about_btn .fas {
+  padding: 0 0 0 0.313vw;
+}
+
+@media screen and (max-width: 815px) {
+  .container__about .about__headling__header {
+    font-size: 20px;
+  }
+  .container__about .about__headling__arrow {
+    width: 100px;
+    height: 5px;
+    margin: 10px 0;
+  }
+  .container__about .about__headling__info {
+    font-size: 15px;
+    margin: 0 50px;
+  }
+
+  .about__content__who-we-are {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .about__content__who-we-are .about__content__who-we-are__descr {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .about__content__who-we-are .info__header {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .about__content__who-we-are .info__text {
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 1px;
+  }
+
+  .about__content__who-we-are__img {
+    display: none;
+  }
+
+  .about__content__button {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  #about_btn {
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+}

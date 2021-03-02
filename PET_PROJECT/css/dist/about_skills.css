@@ -1,0 +1,97 @@
+.about__content__skills {
+  width: 100%;
+  height: 50%;
+  background-image: url(../bgSkills.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.556vw 0;
+}
+.about__content__skills .about__content__skills__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../maskSkills.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.skills__container {
+  width: 67.938vw;
+  display: flex;
+  justify-content: center;
+}
+
+.skills__header__header {
+  margin: 0 0 2.222vw;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.944vw;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.389vw;
+}
+
+.skills__container__description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills__container__description__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.percent {
+  padding: 2.778vw;
+  border: 0.389vw solid #7b6c63;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.444vw;
+  font-family: "Raleway", sans-serif;
+}
+
+.single__option {
+  margin: 2.222vw 0 0;
+  color: white;
+  font-size: 1.111vw;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 815px) {
+  .skills__container {
+    width: 100%;
+  }
+
+  .about__content__skills {
+    height: 200px;
+    padding: 50px 0;
+  }
+
+  .skills__header__header {
+    margin: 0 0 20px;
+    font-size: 15px;
+  }
+
+  .percent {
+    padding: 20px;
+    border: 2px solid #7b6c63;
+    font-size: 15px;
+  }
+
+  .single__option {
+    margin: 20px 0 0;
+    font-size: 10px;
+  }
+}

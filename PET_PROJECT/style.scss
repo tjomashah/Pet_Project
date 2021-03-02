@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Playfair+Display:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 1rem;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+// HEADER
+@import "./css/header.scss";
+
+// ABOUT
+@import "./css/about.scss";
+
+// ABOUT SERVICE
+@import "./css/about_service.scss";
+
+// ABOUT SKILLS
+@import "./css/about_skills.scss";
+
+// PORTFOLIO
+@import "./css/portfolio.scss";
+
+// OUR TEAM
+@import "./css/team.scss";
+
+// CONTACT
+@import "./css/contact.scss";
+
+// FOOTER
+@import "./css/footer.scss";
